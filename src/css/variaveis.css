@@ -1,6 +1,6 @@
 :root {
-    --cor-primaria: #43bd8e;
-    --cor-secundaria: #FD6C22;    
+    --cor-primaria: RGB(255, 0, 255);
+    --cor-secundaria:RGB(191, 255, 0);
     --cor-branca: #fff;
     --cor-fundo-escuro: #040203;    
     --cor-fundo-cinza-escuro: #282828;

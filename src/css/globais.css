@@ -9,9 +9,18 @@ html {
   }
   
   body {
-    background-color: var(--cor-fundo-cinza-escuro);
+    background-image: url(../imagens/pexels-zydeaosika-2261055-4139143.jpg);
+    background-size:cover;
+    background-position:center;
+    background-attachment: fixed;
     font-family: var(--fonte-primaria);
     font-size: var(--fonte-normal);
+
+    background-color: rgba(255, 255, 255, 0.4);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    padding: 20px;
+    border-radius: 10px;
   }
 
   .container {
@@ -80,7 +89,7 @@ html {
   .botao {
     font-size: var(--fonte-grande);
     padding: 10px 20px;
-    border-radius: 20px;
+    border-radius: 7px;
     transition: all .3s ease;
     background-color: var(--cor-primaria);
   }
