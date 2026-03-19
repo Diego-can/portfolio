@@ -6,7 +6,7 @@
     grid-gap: 20px;       
 }
 
-@media(max-width: 1280px) { 
+@media(max-width: 1000px) { 
     .projetos .container-projetos {
         padding: 0 var(--mobile-padding);
     }
